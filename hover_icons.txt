@@ -1,0 +1,4 @@
+.sprite-logo_icon{ background-position: 0 0; width: 27px; height: 11px; } 
+.sprite-app_arrow{ background-position: 0 -61px; width: 27px; height: 11px; } 
+.sprite-view_icon{ background-position: 0 -122px; width: 39px; height: 21px; } 
+.sprite-web_arrow{ background-position: 0 -193px; width: 27px; height: 11px; } 

@@ -1,0 +1,285 @@
+// * * POrtifólio Christiano Borja v.1.1 (http://christianoborja.github.io/)
+//  * Copyright 2000-2016*/
+// CSS Geral
+
+@import "var";
+// @import "mixins";
+
+body, html, .wrap{
+	min-height: 100%;
+    height: auto;
+}
+
+body{
+	background: url(../img/corpo_bg.jpg) repeat 0 0;
+	padding: 0;
+}
+
+.wrap{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.container{
+	padding: 0 20px;
+}
+
+
+.navbar-static-top{
+	width: 100%;
+	margin: 0;
+	.navbar-inner{
+		background: url(../img/topo_bg.jpg) repeat 0 0;
+		border-bottom: 1px solid $cinza;
+		.nav{
+			margin-top: 45px;
+			li{
+				background-image: url(../img/nav_point.png);
+				background-repeat: no-repeat;
+				background-position: -1px 18px;
+			}
+			.active{
+				a:hover{
+					color: #fff;
+					background-color: transparent;
+				}
+			}
+			a{
+				color:$navBarLink;
+				box-shadow: none;
+				text-shadow:none;
+				background-color: transparent;
+				padding-left: 26px;
+				&:hover{
+					color: #fff;
+					background-color: transparent;
+				}
+			}
+		}
+		.nav-bar{
+			max-width: 315px;
+    		margin: 0 auto
+		}
+		.top-menu-border{
+			height: 1px;
+			margin-top: 5px;
+			float: right;
+			width: 72%;
+			background-color: #000;
+			border-bottom: 2px solid $cinzaDark;
+			display:block;
+		}
+		.navbar-toggle{
+			margin-top: 47px;
+			margin-right: 0;
+			.icon-bar{
+				width: 30px;
+    			height: 3px;
+    			background: #f2d30f;
+			}
+		}
+	}
+}	
+
+
+// PAGINA INICIAL
+
+.nav.work-label{
+	max-width: 315px;
+	margin: 80px auto 0;
+	li{
+		margin-right: 45px;
+		text-transform: uppercase;
+		color:$navBarLink;
+		line-height: 16px;
+		padding-left: 11px;
+		margin-bottom: 15px;
+		float: left;
+		&:last-child{
+			margin: 0;
+		}
+	}
+	.web, .app, .logo{
+		border-left: 60px solid;
+	}
+	.web{
+		border-left-color:$web;
+	}
+	.app{
+		border-left-color: $app;
+	}
+	// .logo{
+	// 	border-left-color: $logo;
+	// }
+}
+
+.layouts{
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 45px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	.app-layouts, .web-layouts, .logo-layouts{
+		margin-top: 55px;
+		position: relative;
+		overflow: hidden;
+		height: 200px;
+		width: 330px;
+		.thumb{
+		 	opacity: 0.5;
+		}
+		.info{
+			position: absolute;
+			width: 100%;
+			height: 10px;
+			opacity: 0.97;
+			transition-property: height ;
+			transition-duration: 0.5s;
+			-moz-transition-property: height; /* Firefox 4 */
+			-moz-transition-duration: 0.5s; /* Firefox 4 */
+			-webkit-transition-property:  height; /* Safari and Chrome */
+			-webkit-transition-duration: 0.5s; /* Safari and Chrome */
+			-o-transition-property: height; /* Opera */
+			-o-transition-duration: 0.5s; /* Opera */
+			.info-text{
+				padding: 20px;
+				color: #fff;
+				opacity: 0;
+				transition-property: opacity ;
+				transition-duration: 0.5s;
+				-moz-transition-property: opacity; /* Firefox 4 */
+				-moz-transition-duration: 0.5s; /* Firefox 4 */
+				-webkit-transition-property:  opacity; /* Safari and Chrome */
+				-webkit-transition-duration: 0.5s; /* Safari and Chrome */
+				-o-transition-property: opacity; /* Opera */
+				-o-transition-duration: 0.5s; /* Opera */
+				p{
+					font-size: 16px;
+				}
+				a{
+					position: absolute;
+					width: 39px; 
+					height: 21px;
+					display: block;
+					top: 145px;
+    				right: 25px;
+				}
+			}
+			img{
+				width: 100%;
+			}
+		}
+		&:hover{
+			.info{
+				height:230px;
+				.info-text{
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.app-layouts{
+		.info{
+			background-color:$app;
+		}
+	}
+	.web-layouts{
+		.info{
+			background-color:$web;
+		}
+	}
+	// .logo-layouts{
+	// 	.info{
+	// 		background-color:$logo;
+	// 	}
+	// }
+}
+
+
+// SOBRE
+
+.sobre{
+	margin-top: 55px;
+	margin-bottom: 40px;
+	.info{
+		margin-top: 20px;
+		ul{
+			margin: 0;
+		}
+		.title{
+			color:$navBarLink;
+			margin-bottom: 10px;
+		}
+		h4, p, a, li{
+			list-style: none;
+			color:#fff;
+		}	
+	}	
+}
+
+
+
+
+// CONTATO
+
+.form-horizontal{
+	margin-top: 55px;
+	fieldset{
+		label{
+			color:#fff;
+		}
+		legend{
+			border:none;
+			color:$navBarLink;
+			font-weight: bold;
+		}
+		.control-label{
+			text-align: left;
+			width: 90px;
+		}
+		.controls{
+			margin-left: 105px;
+		}
+	}
+}
+
+.contatos{
+	margin-top: 65px;
+	h4{
+		color:$navBarLink;
+	}
+	p{
+		color:#fff;
+	}
+}
+
+
+footer{
+	height: 60px;
+	.muted{
+		margin-top: 10px;
+		text-align: center;
+		padding: 9px;
+		border-top: 1px solid $cinza;
+		color:$navBarLink;
+	}
+}
+
+
+@media (min-width: 769px){
+	.collapse{
+		display: block;
+		float: right;
+    	width: 72%;
+		.nav{
+			float: right;
+			li{
+				float: left;
+			}
+		}
+	}
+}
