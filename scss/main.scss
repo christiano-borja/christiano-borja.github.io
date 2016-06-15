@@ -76,7 +76,7 @@ body{
 			.icon-bar{
 				width: 30px;
     			height: 3px;
-    			background: #f2d30f;
+    			background: $navBarLink;
 			}
 		}
 	}
@@ -211,7 +211,7 @@ body{
 			padding: 0;
 		}
 		.title{
-			color:$navBarLink;
+			color: $navBarLink;
 			margin-bottom: 10px;
 		}
 		h4, p, a, li{
