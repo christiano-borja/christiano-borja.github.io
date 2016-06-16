@@ -11,7 +11,7 @@ body, html, .wrap{
 }
 
 body{
-	background: url(../img/corpo_bg.jpg) repeat 0 0;
+	background-color: rgba(0,0,0,0.95);
 	padding: 0;
 }
 
@@ -30,7 +30,7 @@ body{
 	width: 100%;
 	margin: 0;
 	.navbar-inner{
-		background: url(../img/topo_bg.jpg) repeat 0 0;
+		background-color: rgba(255,255,255,0.1);
 		border-bottom: 1px solid $cinza;
 		.nav{
 			margin-top: 45px;
@@ -164,7 +164,7 @@ body{
 					width: 39px; 
 					height: 21px;
 					display: block;
-					top: 145px;
+					top: 160px;
     				right: 25px;
 				}
 			}
@@ -244,6 +244,8 @@ body{
 	}
 	.button{
 		background-color: #c09a07;
+		border-radius: 0;
+		border-bottom: 3px solid #735c04;
 		&:hover{
 			background-color: $navBarLink;
 		}
@@ -267,12 +269,12 @@ footer{
 		margin-top: 10px;
 		text-align: center;
 		padding: 9px;
-		border-top: 1px solid $cinza;
+		border-top: 1px solid #232323;
 		color:$navBarLink;
 	}
 }
 
-
+	
 @media (min-width: 769px){
 	.collapse{
 		display: block;
