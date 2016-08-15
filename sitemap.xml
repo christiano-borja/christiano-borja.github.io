@@ -1,0 +1,25 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
+<url>
+<loc>http://christiano-borja.github.io/</loc>
+<lastmod>2016-08-10T17:24:29+00:00</lastmod>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://christiano-borja.github.io/index.html</loc>
+<lastmod>2016-08-10T17:24:29+00:00</lastmod>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://christiano-borja.github.io/sobre.html</loc>
+<lastmod>2016-08-10T17:24:29+00:00</lastmod>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://christiano-borja.github.io/contato.html</loc>
+<lastmod>2016-08-10T17:24:29+00:00</lastmod>
+<changefreq>yearly</changefreq>
+</url>
+</urlset>
