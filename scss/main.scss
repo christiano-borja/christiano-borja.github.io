@@ -4,6 +4,9 @@
 
 @import "var";
 // @import "mixins";
+html{
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
 body, html, .wrap{
 	min-height: 100%;
