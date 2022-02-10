@@ -9,7 +9,7 @@
         "scss:watch": "npm run scss && npm run scss -- -w"
     },
     "dependencies": {
-        "node-sass": "^4.9.3",
+        "node-sass": "^7.0.0",
         "npm": "^6.4.1"
     }
 }
